@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #EFEFEF;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+body::before {
+  content: '';
+  background: #535971;
+
+  width: 100%;
+  height: 436px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.page {
+  width: 750px;
+
+  margin: 0 auto;
+
+  padding: 140px 0;
+}
+
+header h1 {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 48px;
+  color: #fff;
+
+  margin-bottom: 18px;
+}
+
+header p {
+  font-size: 20px;
+  color: #fff;
+
+  width: 417px;
+}
+
+form {
+  background: #fff;
+
+  padding: 32px 64px;
+  margin-top: 58px;
+
+  border-radius: 20px 20px 0 0;
+
+  width: 750px;
+}
+
+label {
+  font-size: 14px;
+  line-height: 24px;
+  color: #4E4958;
+}
+
+label span {
+  font-size: 12px;
+  line-height: 20px;
+  color: #C1BCCC;
+}
+
+label span:hover {
+  color: #88858f;
+}
+
+fieldset {
+  border: none;
+
+  padding-top: 32px;
+}
+
+fieldset legend {
+  font-family:'Staatliches', sans-serif;
+  color: #535971;
+  font-size: 24px;
+  line-height: 34px;
+
+
+  margin-bottom: 40px;
+  border-bottom: 1px solid #E6E6F0;
+
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-2 {
+  display: flex;
+  gap: 22px;
+}
+
+.col-2 > div:nth-child(1) {
+  width: 50%;
+}
+
+.col-2 > div:nth-child(2) {
+  width: 50%;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper label {
+  margin-bottom: 8px;
+}
+
+.input-wrapper input {
+  margin-bottom: 16px;
+}
+
+input {
+  height: 56px;
+
+  border-radius: 8px;
+  border: 1px solid #E6E6F0;
+
+  background: #FAFAFC;
+
+  font-size: 18px;
+
+  padding: 10px;
+  color: #4E4958;
+}
+
+input:invalid {
+  border: 1px solid rgb(255, 109, 109);
+}
+
+h2 {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 20px;
+  line-height: 34px;
+  color: #535971;
+
+  margin-bottom: 8px;
+}
+
+.col-3 {
+  display: flex;
+}
+
+.col-3 > div:nth-child(1) {
+  width: 50%;
+}
+
+.col-3 > div:nth-child(2) {
+  width: 31%;;
+}
+
+.col-3 > div:nth-child(3) {
+  width: 24%;
+}
+
+
+#begin, .begin {
+  margin: 0 10px 0 32px;
+}
+
+footer {
+  background: #535971;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 52px 72px;
+
+  height: 160px;
+
+  border-radius: 0 0 8px 8px;
+}
+
+footer button {
+  height: 55px;
+
+  border-radius: 20px;
+  border: none;
+
+  background: #FF5374;
+
+  font-size: 20px;
+  font-family: 'Staatliches', sans-serif;
+  color: #fff;
+  
+  cursor: pointer;
+}
+
+footer button:hover {
+  background: #f1365b;
+}
+
+footer button:active {
+  box-shadow: inset -3px -4px #353535;
+}
